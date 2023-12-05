@@ -1,15 +1,9 @@
-import type { Metadata } from "next";
 import Head from "next/head";
 
 import { Inter } from "next/font/google";
 import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
-
-export const metadata: Metadata = {
-  title: "TBR Pile Up",
-  description: "Find how long your TBR really is",
-};
 
 export default function RootLayout({
   children,
@@ -19,13 +13,13 @@ export default function RootLayout({
   return (
     <html lang="en">
       <Head>
-        <title>TBR Pile Up</title>
+        <title>How long is my TBR</title>
         <meta
           name="description"
           content="Find how long your TBR really is"
           key="desc"
         />
-        <meta property="og:title" content="TBR Pile Up" />
+        <meta property="og:title" content="How long is my TBR" />
         <meta
           property="og:description"
           content="Find how long your TBR really is"

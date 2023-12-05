@@ -56,7 +56,7 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-start md:p-24 sm:p-12 p-6 gap-4">
       <h1 className="md:text-8xl sm:text-5xl text-3xl font-black max-w-[900px]">
-        Find our long your TBR really is
+        Find how long your TBR really is
       </h1>
       <p className="text-gray-500">
         Export your library from{" "}

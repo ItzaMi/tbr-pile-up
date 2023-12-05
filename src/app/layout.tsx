@@ -30,7 +30,6 @@ export default function RootLayout({
           property="og:description"
           content="Find how long your TBR really is"
         />
-        <meta property="og:image" content="./og-image.jpg" />
       </Head>
       <body className={inter.className}>{children}</body>
     </html>

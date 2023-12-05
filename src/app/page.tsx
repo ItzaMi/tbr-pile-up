@@ -18,8 +18,6 @@ export default function Home() {
     setFile(e.target.files[0]);
   };
 
-  console.log(file);
-
   const handleParseData = () => {
     if (!file) return;
 

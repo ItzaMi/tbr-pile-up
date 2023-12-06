@@ -24,6 +24,11 @@ export default function RootLayout({
           property="og:description"
           content="Find how long your TBR really is"
         />
+        <meta property="twitter:title" content="How long is my TBR" />
+        <meta
+          property="twitter:description"
+          content="Find how long your TBR really is"
+        />
       </Head>
       <body className={inter.className}>{children}</body>
     </html>

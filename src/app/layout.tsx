@@ -1,7 +1,22 @@
-import Head from "next/head";
+import type { Metadata } from "next";
 
 import { Inter } from "next/font/google";
 import "./globals.css";
+
+export const metadata: Metadata = {
+  title: "How long is my TBR",
+  description: "Find how long your TBR really is",
+  openGraph: {
+    title: "How long is my TBR",
+    description: "Find how long your TBR really is",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "How long is my TBR",
+    description: "Find how long your TBR really is",
+    creator: "@HeyItzaMi",
+  },
+};
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -12,24 +27,6 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <Head>
-        <title>How long is my TBR</title>
-        <meta
-          name="description"
-          content="Find how long your TBR really is"
-          key="desc"
-        />
-        <meta property="og:title" content="How long is my TBR" />
-        <meta
-          property="og:description"
-          content="Find how long your TBR really is"
-        />
-        <meta property="twitter:title" content="How long is my TBR" />
-        <meta
-          property="twitter:description"
-          content="Find how long your TBR really is"
-        />
-      </Head>
       <body className={inter.className}>{children}</body>
     </html>
   );

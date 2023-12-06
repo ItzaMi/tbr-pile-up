@@ -6,6 +6,7 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "How long is my TBR",
   description: "Find how long your TBR really is",
+  metadataBase: new URL("https://how-long-is-my-tbr.itzami.com/"),
   openGraph: {
     title: "How long is my TBR",
     description: "Find how long your TBR really is",
